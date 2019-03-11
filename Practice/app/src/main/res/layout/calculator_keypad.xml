@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:layout_margin="3dp"
+    >
+    //Button layout for top row
+    <Button
+        android:id="@+id/clearBtn"
+        android:text="Clear"
+        style="@style/ClearBtnStyles"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+    android:id="@+id/percentageBtn"
+    android:text="%"
+    style="@style/StyleOperation"
+    android:layout_column="1"
+    android:layout_row="0"
+    android:layout_columnWeight="1"
+    android:layout_marginTop="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    />
+
+    <Button
+        android:id="@+id/divisionBtn"
+        android:text="/"
+        style="@style/StyleOperation"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/multiplyBtn"
+        android:text="x"
+        style="@style/StyleOperation"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+
+    //Button layout for 4th row
+    <Button
+    android:id="@+id/sevenBtn"
+    android:text="7"
+    style="@style/StyleNumbers"
+    android:layout_column="0"
+    android:layout_row="1"
+    android:layout_columnWeight="1"
+    android:layout_marginTop="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    />
+
+    <Button
+        android:id="@+id/eightBtn"
+        android:text="8"
+        style="@style/StyleNumbers"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/nineBtn"
+        android:text="9"
+        style="@style/StyleNumbers"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/subtractBtn"
+        android:text="-"
+        style="@style/StyleOperation"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    //Button layout for 3rd row
+    <Button
+        android:id="@+id/fourBtn"
+        android:text="4"
+        style="@style/StyleNumbers"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/fiveBtn"
+        android:text="5"
+        style="@style/StyleNumbers"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/sixBtn"
+        android:text="6"
+        style="@style/StyleNumbers"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:text="+"
+        style="@style/StyleOperation"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    //Button layout for second row
+    <Button
+        android:id="@+id/oneBtn"
+        android:text="1"
+        style="@style/StyleNumbers"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/twoBtn"
+        android:text="2"
+        style="@style/StyleNumbers"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/threeBtn"
+        android:text="3"
+        style="@style/StyleNumbers"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/equalBtn"
+        android:text="="
+        style="@style/StyleOperation"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    //Button Layout of bottom row
+    <Button
+        android:id="@+id/dotBtn"
+        android:text="."
+        style="@style/StyleNumbers"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/singleZero"
+        android:text="0"
+        style="@style/StyleNumbers"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/doubleZero"
+        android:text="00"
+        style="@style/StyleNumbers"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <Button
+        android:id="@+id/tripleZero"
+        android:text="000"
+        style="@style/StyleNumbers"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+</GridLayout>

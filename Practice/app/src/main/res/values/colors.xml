@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Set colors for numbers
+    <color name="numBtn">#c4c4c4</color>
+    <color name="numBtnColor">#0E0D0D</color>
+
+    //Set Primary colors
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    //Set colors for calculations
+    <color name="calBtn">#302F2F</color>
+    <color name="calBtnColor">#FDFBFB</color>
+
+
+
+</resources>
+
